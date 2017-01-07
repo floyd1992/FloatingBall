@@ -15,7 +15,6 @@ import java.lang.reflect.Field;
 /**
  * Created by floyd1992 on 2017/1/5 0005.
  */
-
 public class FloatingViewManager {
 
     private static FloatingViewManager floatingViewManager;
@@ -29,7 +28,6 @@ public class FloatingViewManager {
     private FloatMenu floatMenu;
 
     private Button button;
-
 
     private FloatingViewManager(Context c){
         this.context = c;
@@ -149,7 +147,6 @@ public class FloatingViewManager {
             windowManager.removeView(floatMenu);
         }
     }
-
 
     //获取屏幕宽度
     public int getScreenWidth() {
